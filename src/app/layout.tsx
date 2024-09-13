@@ -32,7 +32,7 @@ const fontBody = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Wps Simulator",
+  title: "Wps-Simulator",
   description: "Wps Simulator based on Multi-Agents",
 };
 

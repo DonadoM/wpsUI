@@ -49,7 +49,7 @@ export function Principal() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
-                    href="#"
+                    href="/simulador"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-[#0E6D66] px-8 text-sm font-medium text-[#CDE8E5] shadow transition-colors hover:bg-[#0E6D66]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
@@ -65,6 +65,7 @@ export function Principal() {
                 objectFit="cover" // Evitar que la imagen se deforme
                 className="rounded-lg" // Añade esquinas redondeadas si lo deseas
                 quality={100} // Para asegurarte de que no se degrade la calidad
+                style={{ objectFit: "cover" }} // Updated prop
               />
             </div>
           </div>
@@ -157,13 +158,6 @@ export function Principal() {
             prefetch={false}
           >
             Privacy
-          </Link>
-          <Link
-            href="#"
-            className="text-xs hover:underline underline-offset-4"
-            prefetch={false}
-          >
-            Terms of Service
           </Link>
         </nav>
       </footer>

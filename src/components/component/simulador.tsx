@@ -71,7 +71,7 @@ export function HomePagee() {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <Label htmlFor="scenario">Escenario</Label>
-                  <Select id="scenario">
+                  <Select>
                     <SelectTrigger>
                       <SelectValue placeholder="Seleccionar escenario" />
                     </SelectTrigger>
